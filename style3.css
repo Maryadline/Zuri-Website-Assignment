@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif; 
+}
+.zuri-header{
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.tool-bar-logo{
+    display:flex;
+    justify-content: left;
+    margin: auto;
+    align-items: left;
+    height: 40px;
+    margin-top: 20px; 
+    margin-left: 10%; 
+  }
+ 
+.tool-bar-style{
+  display:flex;
+  justify-content: center;
+  height: 50px;
+  
+  margin: auto;
+  color: rgb(0, 0, 0);
+  /* width: 80%;
+  max-width: 1440px; */
+  /* position: sticky */
+  
+}
+.home{
+    margin-right: 3rem; 
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    width: 40%;
+}
+.impact{
+    margin-right: 3rem; 
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    width: 40%;
+}
+.why-us{
+    margin-right: 3rem; 
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    width: 40%;
+}
