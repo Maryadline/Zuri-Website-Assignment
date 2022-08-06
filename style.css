@@ -82,12 +82,18 @@ a:hover{
     background-color: #fff;
     overflow: hidden;
     display: flex;
+    background-color: #fff;
     /* text-align: center; */
 }
 .program-content{
     padding-top: 0;
-    
 }
+.container .program-content{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 .program-content .h3-heading {
     font-size: 14px;
     line-height: 24px;
@@ -95,27 +101,10 @@ a:hover{
     margin-top: 141px;
     text-align: center;
 }
-.program-content .slogan{
-    font-size: 24px;
-    line-height: 40px;
-    text-align: center;
-    color: #514949;
-    margin-top: 8px;
-    margin-bottom: 64px;
-}
-/* .container .program-content{
-    margin: auto;
-    text-align: center;
-} */
+
 /* .zuri-content{
     max-width: 1240px;
 } */
-.program-content .h3-heading{
-    font-size: 14px;
-    line-height: 24px;
-    color: #E7332B;
-    margin-top: 141px;
-}
 .program-content .slogan{
     font-size: 24px;
     line-height: 40px;
@@ -138,8 +127,7 @@ a:hover{
 .program-card{
     /* width: 100%; */
     background-color: #FFFAFA;
-    /* padding: 2em; */
-    padding: 15px;
+    padding: 5px;
     align-items: center;
     margin: 20px;
     display : flex;
@@ -169,7 +157,7 @@ img{
     border-style: none;
 }
 .left-text{
-    margin-left: 200px;
+    margin-left: 110px;
 }
 .program-card p{
     font-size: 16px;
