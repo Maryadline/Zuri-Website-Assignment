@@ -137,28 +137,31 @@ a:hover{
 .program-card img{
     margin-bottom: 48px;
 }
-/* .program-card .left-text ::before{ */
-    /* max-width: 100%;
-    content: ''; */
-    /* position: relative;
-    top: -75px;;
-    left: -120px;; */
-    /* background-image: url(images/left_bvmv7q.png);
-    background-repeat: no-repeat; */
-    /* width: 43px;
-    position: absolute; */
-    /* float: left; */
-    /* left: -120px; */
-    /* top: -75px; */
-    /* z-index: -1;
-} */
 
 img{
     vertical-align: middle;
     border-style: none;
 }
+.left-image {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: transparent;
+}
+.left-design{
+    width: 20%;
+}
+.right-image{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: transparent;
+}
+.right-design{
+    width: 20%;
+}
 .left-text{
-    margin-left: 210px;
+    margin-left: 10%;
 }
 .program-card p{
     font-size: 16px;
@@ -213,6 +216,9 @@ img{
     /* size-adjust: 30px; */
     width: auto;
     margin-right: 15px;
+}
+.icons{
+    width: 9%;
 }
 .footer hr{
     opacity: 0.2;
