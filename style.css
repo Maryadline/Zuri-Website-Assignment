@@ -114,27 +114,47 @@ a:hover{
     margin-bottom: 64px;
     align-items: center;
 }
-.row{
+.zuri-content{
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    width: 100%;
+    height: -200%;
+    padding-top: 5em;
+    justify-content: center;
+    gap: 4%;
+    background-image: url(images/left_bvmv7q.png), url(images/right_yz6hn3.png);
+    background-size: contain;
+    background-position: right -20% top 10%, left -20% top 10%;
+        /* background-position-x: right -20%, left -20%;
+        background-position-y: top 10%, top 10%; */
+    padding: 0 2,5em;
+    padding-top: 2em;
 }
-.program-card .left-text{
-    position: relative;
-    z-index: 1;
+.row{
+    background-color: #fff;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px
+    /* height: 500%; */
+    /* margin-right: -15px;
+    margin-left: -15px; */
 }
 .program-card{
-    /* width: 100%; */
+    /* width: 100%;  */
     background-color: #FFFAFA;
-    padding: 5px;
+    padding: 10px;
     align-items: center;
     margin: 20px;
     display : flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    /* gap: 1em; */
+    max-width: 100%;
 }
-.program-card img{
+/* .program-card .left-text{
+    position: relative;
+    z-index: 1;
+} */
+
+.program-card .zuri-img{
     margin-bottom: 48px;
 }
 
@@ -142,27 +162,27 @@ img{
     vertical-align: middle;
     border-style: none;
 }
-.left-image {
+/* .left-image {
+    /* flex-direction: row; */
+    /* position: relative; */
+    /* background-color: transparent;
+    background-position: left; */
+} */
+/* .left-design{
+    width: 20%;
+} */
+/* .right-image{
     display: flex;
     flex-direction: row;
     position: relative;
     background-color: transparent;
-}
-.left-design{
+} */
+/* .right-design{
     width: 20%;
-}
-.right-image{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    background-color: transparent;
-}
-.right-design{
-    width: 20%;
-}
-.left-text{
+} */
+/* .left-text{
     margin-left: 10%;
-}
+} */
 .program-card p{
     font-size: 16px;
     line-height: 24px;
