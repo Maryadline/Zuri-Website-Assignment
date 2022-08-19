@@ -81,8 +81,7 @@ a:hover{
     background-color: #fff;
     overflow: hidden;
     display: flex;
-    background-color: #fff;
-    display : grid;
+    background-color: #fff; 
     align-items: center;
 }
 .program-content{
@@ -227,28 +226,21 @@ img{
     padding-bottom: 97px;
 }
 @media screen and(max-width: 375px) {
-    .heading-container{
-        align-items: center;
-    } 
-    .btn-div{
-        width: 74%;
-        display: flex;
-        flex-wrap: wrap;
+    body{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
-    .program-card{
-        width: 50%;
-        margin: 40px;
-        justify-content: center;
+    .programs{
+        flex-direction: column;
+        width: 100%;
+        padding: 25px;
     }
-    .flex1{
-		justify-content: center;
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
-    .flex1, .flex2, .flex3, .flex4{
-        font-size: 2em;
-    }
-
+    
 }
-
-
+@media (max-width: 1440px){
+    body{
+        width: 100%;
+    }
+}
+   
